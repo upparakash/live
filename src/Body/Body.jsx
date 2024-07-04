@@ -1,5 +1,6 @@
 // src/Body.jsx
 import React from 'react';
+import './Body.css'
 
 const Body = () => {
   return (
@@ -16,6 +17,7 @@ const styles = {
     paddingTop: '4rem',
     maxWidth: '1200px',
     margin: '0 auto',
+    
     textAlign: 'center',
   },
   '@media (max-width: 768px)': {
