@@ -16,8 +16,7 @@ const styles = {
     textAlign: 'center',
     padding: '1rem',
     position: 'relative',
-    display: 'flex',
-    zIndex: 1000,
+
     width: '100%',
     marginTop: '2rem',
   },
