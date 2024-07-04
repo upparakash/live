@@ -4,8 +4,8 @@ import React from 'react';
 const Body = () => {
   return (
     <main style={styles.body}>
-      <h1>Welcome to My React App</h1>
-      <p>This is the body of the application.</p>
+      <h1>i love archana</h1>
+      
     </main>
   );
 };
