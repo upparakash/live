@@ -1,26 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// src/App.jsx
+import React from 'react';
+import Navbar from './Navbar/Navbar';
+import Footer from './Footer/Footer';
+import Body from './Body/Body';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      
-      <h1>Vite + React</h1>
-      <div className="card">
-        
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div style={styles.container}>
+      <Navbar />
+      <Body />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+const styles = {
+  container: {
+    minHeight: '100vh',
+    paddingTop: '4rem',
+    paddingBottom: '2.5rem',
+    display: 'flex',
+    flexDirection: 'column',
+  },
+};
+
+export default App;
